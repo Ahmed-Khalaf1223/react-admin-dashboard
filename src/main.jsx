@@ -41,6 +41,7 @@ const router = createBrowserRouter(
       <Route path="*" element={<NotFound />} />
     </Route>,
   ),
+  { basename: "/react-admin-dashboard" },
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
