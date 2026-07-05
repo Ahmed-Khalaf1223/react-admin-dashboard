@@ -37,10 +37,8 @@ const router = createBrowserRouter(
       <Route path="pie" element={<PieChart />} />
       <Route path="line" element={<LineChart />} />
       <Route path="geography" element={<Geography />} />
-     
 
       <Route path="*" element={<NotFound />} />
-
     </Route>,
   ),
 );
